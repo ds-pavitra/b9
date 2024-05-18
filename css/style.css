@@ -31,23 +31,23 @@ body {
 }
 
 .header_logo {
-    width: 84px;
-    height: 70px;
-    margin: 10px 10px 0 40px;
+    width: 209px;
+    height: 75px;
+    margin: -14px 10px 0 10px;
 }
 
 .header_contactus_btn {
     color: white;
-    background-color: black;
+    background-color: #E1694B;
     border-radius: 5px;
     padding: 8px 15px;
     margin-right: 40px;
 }
 
 .header_contactus_btn:hover {
-    color: #000;
+    color: #E1694B;
     background-color: #fff;
-    border: 1px solid black;
+    border: 1px solid #E1694B;
 }
 
 .banner_top_container {
@@ -73,7 +73,7 @@ body {
     padding: 5px 18px;
 }
 
-.custom_active{
+.custom_active {
     color: #004E9E !important;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .cust_positioning_banner {
-    width: 650px;
+    width: auto;
     text-align: center;
     margin: 0 auto;
     padding: 100px 0 40px 0;
@@ -94,14 +94,39 @@ body {
 
 .home_banner .cust_positioning_banner {
     padding: 100px 0;
+    width: 1240px;
+    text-align: center;
+    height: 585px;
+    margin: 0 auto;
+    padding: 100px 0 40px 0;
+    border: 1px solid #ADAFC6;
+    background: #E7E9FF9C;
+    position: relative;
 }
 
 .home_banner .h_banner_text {
     font-size: 24px;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 36px;
     text-align: center;
     color: #000;
+}
+
+.home_banner a {
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hp_banner_img {
+    width: 398px;
+    height: 370px;
+    position: absolute;
+    bottom: -14px;
+    left: 109px;
 }
 
 .section.section-demos {
@@ -286,6 +311,75 @@ body {
 }
 
 
+/* ========================================== */
+
+.innovating_section {
+    width: 1290px;
+    margin: 100px auto;
+}
+
+.b9Headerh2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.innovating_section .earthDiv {
+    width: 572px;
+    height: 304px;
+    background: #F0F2FF;
+    border: 1px solid #777A88;
+    border-radius: 152px;
+    display: flex;
+    justify-content: center;
+}
+
+.numberComponent {
+    width: 100%;
+    height: 216px;
+    border-radius: 100px 0px 100px 0px;
+    border: 1px 0px 0px 0px;
+    background: #F0F2FF;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+}
+
+.numberComponent h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.numberComponent p {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60.84px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.b9_customHeader {
+    font-size: 64px !important;
+    font-weight: 600;
+    line-height: 79px !important;
+    text-align: center;
+    color: #000;
+    width: 100% !important;
+}
+
+/* ========================================== */
+
 
 
 /*=======================================
@@ -440,7 +534,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
-    color: #004E9E;
+    color: #E1694B;
     margin-bottom: 30px;
 }
 
@@ -459,7 +553,7 @@ body {
     align-items: center;
 }
 
-.explore_btn_service:hover{
+.explore_btn_service:hover {
     color: #fff;
     background-color: #000;
 }
@@ -590,10 +684,11 @@ body {
 }
 
 .keySolution_card .service-item {
-    width: 1180px;
+    /* width: 1180px; */
     height: 400px;
     display: flex;
     align-items: center;
+    margin: 0 -137px 0 105px;
 }
 
 /* why choose us  */
@@ -1337,7 +1432,7 @@ uiux page css style
     color: #363535;
 }
 
-.sd_desk .card{
+.sd_desk .card {
     height: 286px;
 }
 
@@ -1729,11 +1824,13 @@ uiux page css style
     overflow-x: hidden;
 }
 
-.navigation_desk, .Kscard_desk {
+.navigation_desk,
+.Kscard_desk {
     display: block !important;
 }
 
-.navigation_mob , .Kscard_mob {
+.navigation_mob,
+.Kscard_mob {
     display: none !important;
 }
 
@@ -2448,9 +2545,11 @@ uiux page css style
 }
 
 .keySolution_card .img1 {
-    width: 504px;
-    height: auto;
-    opacity: 0;
+    width: 416px;
+    height: 416px;
+    border-radius: 10px;
+    background: #F0F2FF;
+    opacity: 1;
 }
 
 .keySolution_card .img2 {
@@ -2690,11 +2789,11 @@ uiux page css style
     overflow: hidden !important;
 }
 
-.hp_banner_p{
+.hp_banner_p {
     margin-bottom: 0;
 }
 
-.mt_100{
+.mt_100 {
     margin-top: 100px;
 }
 
@@ -2712,14 +2811,14 @@ uiux page css style
     opacity: 0;
 }
 
-.c_pb_100 h2{
+.c_pb_100 h2 {
     padding: 0 0 100px 0;
     font-size: 36px;
     font-weight: 600;
     line-height: 48px;
 }
 
-.cw_1280{
+.cw_1280 {
     width: 1280 !important;
 }
 
@@ -2732,11 +2831,13 @@ uiux page css style
         overflow: hidden;
     }
 
-    .navigation_desk , .Kscard_desk{
+    .navigation_desk,
+    .Kscard_desk {
         display: none !important;
     }
 
-    .navigation_mob , .Kscard_mob {
+    .navigation_mob,
+    .Kscard_mob {
         display: block !important;
     }
 
@@ -3102,7 +3203,8 @@ uiux page css style
         margin: 0 0 16px 0;
         position: unset !important;
         opacity: 1 !important;
-        align-self: center;;
+        align-self: center;
+        ;
     }
 
     .keySolution_card .service-content h4 {
@@ -4601,7 +4703,7 @@ uiux page css style
         margin-bottom: 1px !important;
     }
 
-    .keySolution_div{
+    .keySolution_div {
         margin: 0 auto 280px auto !important;
     }
 
@@ -4610,10 +4712,10 @@ uiux page css style
         justify-content: flex-end;
     }
 
-    .home-content1{
+    .home-content1 {
         top: 10px !important;
     }
-    
+
     .container-slider {
         max-width: 370px;
     }
@@ -4667,7 +4769,7 @@ uiux page css style
         align-items: center;
     }
 
-    .mob_wws .service-content{
+    .mob_wws .service-content {
         align-items: flex-start;
     }
 
@@ -4707,11 +4809,13 @@ uiux page css style
         overflow: hidden;
     }
 
-    .navigation_desk, .Kscard_mob {
+    .navigation_desk,
+    .Kscard_mob {
         display: none !important;
     }
 
-    .navigation_mob, .Kscard_desk{
+    .navigation_mob,
+    .Kscard_desk {
         display: block !important;
     }
 
@@ -4898,9 +5002,10 @@ uiux page css style
         padding: 30px 32px;
     }
 
-    .banner_img{
+    .banner_img {
         opacity: 1;
     }
+
     .h_banner_text {
         font-size: 32px;
         font-weight: 600;
@@ -4963,7 +5068,7 @@ uiux page css style
         padding: 0 0 16px 0;
     }
 
-    .c_pb_100{
+    .c_pb_100 {
         padding: 0 0 100px 0;
         font-size: 36px;
         font-weight: 600;
@@ -5083,7 +5188,7 @@ uiux page css style
         margin: 80px auto 70px auto;
     }
 
-    .Kscard_desk{
+    .Kscard_desk {
         height: 3240px !important;
         margin: 0 auto !important;
     }
@@ -5405,7 +5510,7 @@ uiux page css style
         border-radius: 10px;
     }
 
-    .main-count div{
+    .main-count div {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -5801,7 +5906,8 @@ uiux page css style
         margin: 100px auto 0 auto;
     }
 
-    .whoweserve_mob, .whoweserve_desk{
+    .whoweserve_mob,
+    .whoweserve_desk {
         margin: 0 auto;
     }
 
@@ -6219,7 +6325,7 @@ uiux page css style
         display: flex !important;
     }
 
-    .cw_1280{
+    .cw_1280 {
         width: 700px !important;
     }
 
@@ -6256,11 +6362,13 @@ uiux page css style
         overflow: hidden;
     }
 
-    .navigation_desk , .Kscard_desk {
+    .navigation_desk,
+    .Kscard_desk {
         display: block !important;
     }
 
-    .navigation_mob , .Kscard_mob {
+    .navigation_mob,
+    .Kscard_mob {
         display: none;
     }
 
@@ -6371,7 +6479,7 @@ uiux page css style
         height: 236px;
     }
 
-    .banner_img{
+    .banner_img {
         opacity: 1 !important;
     }
 
@@ -6447,7 +6555,7 @@ uiux page css style
         right: -10% !important;
     }
 
-    .Kscard_desk{
+    .Kscard_desk {
         height: 3240px !important;
         margin: 0 auto !important;
     }
@@ -7094,7 +7202,7 @@ uiux page css style
         display: none;
     }
 
-     .key_benefit_container {
+    .key_benefit_container {
         width: auto;
         margin: 70px auto 70px auto;
         display: flex;
@@ -7291,15 +7399,15 @@ uiux page css style
         height: auto;
     }
 
-    .process_Sec_md{
+    .process_Sec_md {
         height: 800px !important;
     }
 
-    .process_sec_sc{
+    .process_sec_sc {
         height: 750px !important;
     }
 
-    
+
     .md_desk .service-image {
         width: 352px;
         height: 226px;
@@ -7744,10 +7852,14 @@ uiux page css style
 }
 
 @media only screen and (min-width: 1560px) and (max-width:2160px) {
-    .img1, .img2, .img3{
+
+    .img1,
+    .img2,
+    .img3 {
         right: 20% !important;
     }
-     .img4 {
+
+    .img4 {
         right: 5% !important;
     }
 }
